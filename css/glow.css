@@ -1,0 +1,60 @@
+body {
+	font-family: monospace;
+	background: #263238;
+	color: #D0D0D0;
+	font-size: 16px;
+	padding: 10px;
+}
+h1, h2, h3, h4, h5, h6 {
+	color: #00AFFF;
+	font-weight: bold;
+	font-size: 16px;
+}
+span {
+	background: #5F5FFF;
+	color: #FFFF87;
+	padding: 5px 10px 5px 10px;
+	border-radius: 5px;
+	font-weight: bold;
+	line-height: 30px;
+}
+h1::before {
+	content: "# ";
+}
+h2::before {
+	content: "## ";
+}
+h3::before {
+	content: "### ";
+}
+h4::before {
+	content: "#### ";
+}
+h5::before {
+	content: "##### ";
+}
+h6::before {
+	content: "###### ";
+}
+strong {
+	font-weight: bold;
+}
+a {
+	color: #00AF5F;
+	font-weight: bold;
+	text-decoration: none;
+}
+a::after {
+	content: " " attr(href) " ";
+	color: #008787;
+	text-decoration: underline;
+}
+blockquote {
+	border-left: 2px solid #D0D0D0;
+	padding-left: 15px;
+}
+img {
+	width: 100%;
+	height: auto;
+}
+
