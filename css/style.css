@@ -22,12 +22,12 @@ a:visited {
 }
 
 h1 {
-	font-size: 30px;
+	font-size: 1.5em;
 }
 
 header {
-	width: 800px;
-	padding: 20px 0px 60px 0px;
+	width: 40em;
+	padding: 1em 0 3em 0;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
@@ -52,16 +52,16 @@ header h1 a:hover {
 }
 
 nav a {
-	padding: 2px;
+	padding: 0.1em;
 	transition: all 0.5s;
 }
 
 nav a:hover {
-	font-size: 23px;
+	font-size: 1.15em;
 }
 
 main {
-	width: 800px;
+	width: 40em;
 }
 
 #intro {
@@ -70,11 +70,12 @@ main {
 }
 
 #face {
-	width: 200px;
-	height: 200px;
-	margin-right: 24px;
-	border-radius: 12px;
-	filter: drop-shadow(1px 1px 2px #33333333);
+	width: 10em;
+	height: 10em;
+	margin-right: 1.2em;
+	border-radius: 0.5em;
+	filter: drop-shadow(5px 5px 10px #33333333);
+	/*https://getcssscan.com/css-box-shadow-examples*/
 }
 
 #profile a {
@@ -82,11 +83,11 @@ main {
 }
 
 #profile p {
-	margin-top: 0px;
+	margin-top: 0;
 }
 
 footer {
-	width: 800px;
+	width: 40em;
 	text-align: right;
 }
 
