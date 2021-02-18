@@ -3,7 +3,7 @@ body {
 	font-size: 20px;
 	background-color: #FFF;
 	color: #333;
-	width: 40em;
+	max-width: 40em;
 	margin: 0 auto;
 	padding: 0 1em;
 }
